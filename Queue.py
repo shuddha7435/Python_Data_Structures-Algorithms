@@ -36,16 +36,16 @@ class Queue:
 
 if __name__ == "__main__":
     q = Queue(3)
-    q.enqueue("Tahmid")
-    q.enqueue("Rafi")
-    q.enqueue("Tamim")
-    q.enqueue("Subeen")
+    q.enqueue("Shuddha")
+    q.enqueue("Rudro")
+    q.enqueue("Ratna")
+    q.enqueue("Rupam")
 
     while not q.is_empty():
         person = q.dequeue()
         print(person)
 
-    q.enqueue("Subeen")
+    q.enqueue("Rupam")
     print(q.items)
     print("head:", q.head)
     print("tail:", q.tail)
